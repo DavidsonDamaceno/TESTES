@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+    <title>Solutions</title>
+  </head>
+  <body>
+    <nav id="buttonsSelect">
+      <button class="nav-btn" data-target="somar">Chose Fatorial</button>
+      <button class="nav-btn" data-target="bissexto">Chose Bissexto</button>
+      <button class="nav-btn" data-target="palindrome">Chose Palindrome</button>
+    </nav>
+
+    <header class="container">
+      <div class="somar hidden">
+        <h1>Insert Number</h1>
+        <p>
+          Insira um número e automaticamente ele retornará seu fatorial.
+          <br>
+          Insert a number and it will automatically return its factorial.
+        </p>
+        <input type="number" id="numberInput" />
+        <button class="sendBtn">Click Me</button>
+        <p class="results"></p>
+      </div>
+
+      <div class="bissexto hidden">
+        <h1>É Bissexto?</h1>
+        <p>Insira um ano e descubra se ele é bissexto.
+          <br>
+          Insert a year and find out if it's a leap year.
+        </p>
+        <input type="number" id="yearInput" />
+        <button class="leapYearBtn">Check Year</button>
+        <p class="leapYearResult"></p>
+      </div>
+
+      <div class="palindrome hidden">
+        <h1>É Palíndromo?</h1>
+        <p>Insira uma palavra ou frase para verificar se é um palíndromo.
+          <br>
+          Insert a word or phrase to check if it's a palindrome.
+        </p>
+        <input type="text" id="palindromeInput" />
+        <button class="palindromeBtn">Check Palindrome</button>
+        <p class="palindromeResult"></p>
+      </div>
+    </header>
+  </body>
+  <script src="./scripts.js"></script>
+  <script src="./subtestes.js"></script>
+</html>

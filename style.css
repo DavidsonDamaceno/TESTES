@@ -1,0 +1,86 @@
+*{
+    font-family:  "Oswald", sans-serif;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    gap: 10px;
+     background-color: #042400;
+    background: linear-gradient(90deg,rgb(11, 36, 0) 0%, rgb(44, 128, 100) 35%, rgb(17, 99, 81) 100%);
+    background-size: 400% 400%;
+    animation: gradient 10s ease infinite;
+}
+
+@keyframes gradient {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+
+input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    width: 200px;
+    outline: none;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 22px;
+    box-shadow: #042400 0px 4px 8px;
+}
+
+button:hover {
+    background-color: #218838;
+    transform: scale(1.05);
+    transition: all 0.3s ease-in-out;
+}
+
+button:active {
+    transform: scale(0.95);
+    box-shadow: #042400 0px 2px 4px;
+}
+
+.results, .leapYearResult, .palindromeResult {
+    margin-top: 20px;
+    font-size: 18px;
+    color: #f5f2f2;
+}
+
+#buttonsSelect {
+    display: flex;
+    gap: 30px;
+    width: 500px;
+    height: 150px;
+    justify-content: center;   
+}
+
+.hidden {
+    display: none !important;
+}
+
+.container {
+    display: none;
+}
+
+.somar, .bissexto, .palindrome {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    margin-top: 20px;
+}

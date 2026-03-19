@@ -9,3 +9,9 @@
   <li>O segundo, verifica se o ano inserido é ou não um ano bissexto;</li>
   <li>O terceiro, verifica se a palavra inserida é um palíndromo.</li>
 </ul>
+<br>
+<br>
+
+
+https://github.com/user-attachments/assets/c0856f32-e180-4a1d-87bb-396c1fc56dab
+
